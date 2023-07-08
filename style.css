@@ -1,25 +1,25 @@
-body{
+body {
     font-family: poppins;
 }
 
-.body-login{
+.body-login {
     background-image: url("img/login\ bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-        justify-content: center;
-        /* align item horizontally */
-        align-items: center;
-        /* align item vertically */
-        flex-direction: column;
-        /* align item vertically */
-        height: 100vh;
-        /* full height of the browser */
-        width: 100%;
+    justify-content: center;
+    /* align item horizontally */
+    align-items: center;
+    /* align item vertically */
+    flex-direction: column;
+    /* align item vertically */
+    height: 100vh;
+    /* full height of the browser */
+    width: 100%;
 
 }
 
-.welcome-card{
+.welcome-card {
     background: #C5C5FF;
     border-radius: 10px;
     border: none;
@@ -29,14 +29,14 @@ body{
     padding: 10px;
 }
 
-.welcome-card h1{
+.welcome-card h1 {
     font-size: 50px;
     color: #000;
     font-weight: 400;
     margin-bottom: 0px;
 }
 
-.kartu-login{
+.kartu-login {
     margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
@@ -51,26 +51,63 @@ body{
     justify-content: center;
 }
 
-.kartu-login i{
+.kartu-login i {
     font-size: 45px;
     color: #000;
     font-weight: 400;
     margin-bottom: 0px;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.banner{
+.banner {
     display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100% !important;
 }
 
-.control{
+.navbar {
+    background: #C5C5FF;
+
+}
+
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar i {
+    font-size: 50px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 80px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.icon-logo svg{
+    width: 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.body-right {
+    background: #070D23;
+
+}
+
+.control {
     border: none;
     border-radius: 10px;
     background: #FFF;
@@ -79,27 +116,64 @@ a{
     height: 30px;
 }
 
-.button-control button{
-border-radius: 10px;
-border: none;
-display: flex;
-align-items: center;
-justify-content: center;
-align-self: center;
-
+.control:hover {
+    background: #6750A4;
+    color: #FFF;
+    transition: 0.2s;
 }
 
-.color-d9{
+.button-control{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+
+.button-control button {
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+
+.color-d9 {
     background-color: #d9d9d9;
 }
 
-.button-control p{
-    font-size: 27px;
+.button-control p {
+    font-size: 20px;
     font-weight: 600;
     height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 0;
 }
 
-.button-control h1{
-    font-size: 30px;
-    margin: 0 10px ;
+.button-control h1 {
+    font-size: 25px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.harga-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 20px;
 }
