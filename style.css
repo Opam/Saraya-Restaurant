@@ -296,3 +296,42 @@ a {
     color: #FFF;
     width: 80%;
 }
+
+.kasir{
+    width: 729px;
+    margin: 0 auto;
+}
+
+.kasir .card {
+    border-radius: 20px;
+    border: none;
+    background-color: #4D70FF;
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 20%;
+    text-align: center;
+    transition: 0.3s all;
+}
+
+.body-service{
+    background-color: #21005D;
+}
+
+.legend-card{
+    margin-left: 100px !important;
+}
+
+.available{
+    background-color: #4D70FF !important;
+}
+.disableds{
+    background-color: #36383D !important;
+}
+
+.legend p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
