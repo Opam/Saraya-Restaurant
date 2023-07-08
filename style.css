@@ -56,4 +56,50 @@ body{
     color: #000;
     font-weight: 400;
     margin-bottom: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner{
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+
+.control{
+    border: none;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 15px;
+    width: 1px;
+    height: 30px;
+}
+
+.button-control button{
+border-radius: 10px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+align-self: center;
+
+}
+
+.color-d9{
+    background-color: #d9d9d9;
+}
+
+.button-control p{
+    font-size: 27px;
+    font-weight: 600;
+    height: 30px;
+}
+
+.button-control h1{
+    font-size: 30px;
+    margin: 0 10px ;
 }
