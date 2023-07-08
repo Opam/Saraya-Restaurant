@@ -1,5 +1,6 @@
 body {
     font-family: poppins;
+    height: 100vh;
 }
 
 .body-login {
@@ -192,6 +193,7 @@ a {
     color:#C5C5FF;
     width: 100%;
     transition: 0.2s;
+    margin-top: 130px;
 }
 
 .order h1{
@@ -211,6 +213,7 @@ a {
     justify-content: center;
     width: 100%;
     transition: 0.2s;
+    margin-bottom: 50px;
 }
 
 .order-back h1 {
