@@ -343,3 +343,24 @@ a {
     font-size: 20px;
     margin-bottom: 0;
 }
+
+.header-manager{
+    margin-left: -12px;
+    width: 1920px;
+}
+
+.fixed-top{
+        margin-right: -24px;
+}
+
+.button-ketersediaan{
+    width: 40%;
+}
+
+.body-manager {
+    margin-top: 190px;
+}
+
+.navbar-manager-padding{
+    padding-top: 300px;
+}
