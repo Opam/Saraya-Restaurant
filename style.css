@@ -178,7 +178,7 @@ a {
 }
 
 .checkout{
-    
+    margin-bottom: 30px;
     background-color: #C5C5FF;
 }
 
@@ -189,13 +189,38 @@ a {
 .order{
     display: flex;
     background-color: #4D70FF;
-    color:#FFF;
-    justify-content: center;
+    color:#C5C5FF;
     width: 100%;
+    transition: 0.2s;
+}
+
+.order h1{
+    text-align: center !important; 
 }
 
 .order:hover{
+    background-color: #C5C5FF;
+    color: #4D70FF;
+    transition: 0.2s;
+}
+
+.order-back {
+    display: flex;
+    background-color: #C5C5FF;
+    color: #4D70FF;
+    justify-content: center;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.order-back h1 {
+    text-align: center !important;
+}
+
+.order-back:hover {
     background-color: #4D70FF;
+    color: #C5C5FF;
+    transition: 0.2s;
 }
 
 .serah{
