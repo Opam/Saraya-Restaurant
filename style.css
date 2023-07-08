@@ -314,6 +314,14 @@ a {
     flex-basis: 20%;
     text-align: center;
     transition: 0.3s all;
+    cursor: pointer;
+}
+
+.kasir .card:hover{
+  background-color: #44FB04;
+  color: #1E1E1E;
+  cursor: pointer;
+  transition: 0.3s all;
 }
 
 .body-service{
