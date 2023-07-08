@@ -1,6 +1,7 @@
 body {
     font-family: poppins;
-    height: 100vh;
+    min-height: 100vh;
+    
 }
 
 .body-login {
@@ -228,4 +229,38 @@ a {
 
 .serah{
     margin: 35px 100px ;
+}
+
+.logo{
+    width: 118px;
+    height: 121px;
+    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.nota-bayar{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #C5C5FF;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.karep{
+    padding: 30px;
+    background-color: #606063;
+}
+
+.karep h1{
+    margin: 0 auto;
+}
+
+.payment{
+    padding: 30px;
+    background-color: #606063;
 }
