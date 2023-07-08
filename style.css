@@ -125,7 +125,7 @@ a {
 .button-control{
     display: flex;
     justify-content: flex-end;
-    margin-left: 40px;
+    margin-left: 12px;
 }
 
 .button-control button {
@@ -144,7 +144,6 @@ a {
 
 .button-control p {
     font-size: 20px;
-    font-weight: 600;
     height: 30px;
     display: flex;
     align-items: center;
