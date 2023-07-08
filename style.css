@@ -1,0 +1,59 @@
+body{
+    font-family: poppins;
+}
+
+.body-login{
+    background-image: url("img/login\ bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+        justify-content: center;
+        /* align item horizontally */
+        align-items: center;
+        /* align item vertically */
+        flex-direction: column;
+        /* align item vertically */
+        height: 100vh;
+        /* full height of the browser */
+        width: 100%;
+
+}
+
+.welcome-card{
+    background: #C5C5FF;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s all;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+}
+
+.welcome-card h1{
+    font-size: 50px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.kartu-login{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #d9d9d9;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s all;
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.kartu-login i{
+    font-size: 45px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
