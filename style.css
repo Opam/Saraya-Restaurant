@@ -1,7 +1,7 @@
 body {
     font-family: poppins;
     min-height: 100vh;
-    
+
 }
 
 .body-login {
@@ -95,7 +95,7 @@ a {
     margin-left: 40px;
 }
 
-.icon-logo svg{
+.icon-logo svg {
     width: 50px;
     margin-top: 200px;
     display: flex;
@@ -124,7 +124,7 @@ a {
     transition: 0.2s;
 }
 
-.button-control{
+.button-control {
     display: flex;
     justify-content: flex-end;
     margin-left: 12px;
@@ -171,7 +171,7 @@ a {
     margin-bottom: 0;
 }
 
-.harga-section{
+.harga-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,29 +179,29 @@ a {
     margin-top: 20px;
 }
 
-.checkout{
+.checkout {
     margin-bottom: 30px;
     background-color: #C5C5FF;
 }
 
-.checkout i{
+.checkout i {
     font-size: 28px;
 }
 
-.order{
+.order {
     display: flex;
     background-color: #4D70FF;
-    color:#C5C5FF;
+    color: #C5C5FF;
     width: 100%;
     transition: 0.2s;
     margin-top: 130px;
 }
 
-.order h1{
-    text-align: center !important; 
+.order h1 {
+    text-align: center !important;
 }
 
-.order:hover{
+.order:hover {
     background-color: #C5C5FF;
     color: #4D70FF;
     transition: 0.2s;
@@ -227,11 +227,11 @@ a {
     transition: 0.2s;
 }
 
-.serah{
-    margin: 35px 100px ;
+.serah {
+    margin: 35px 100px;
 }
 
-.logo{
+.logo {
     width: 118px;
     height: 121px;
     flex-shrink: 0;
@@ -241,7 +241,7 @@ a {
     margin: 0 auto;
 }
 
-.nota-bayar{
+.nota-bayar {
     padding-left: 100px;
     padding-right: 100px;
     background-color: #C5C5FF;
@@ -251,16 +251,48 @@ a {
     margin-bottom: 180px;
 }
 
-.karep{
+.karep {
     padding: 30px;
     background-color: #606063;
 }
 
-.karep h1{
+.karep h1 {
     margin: 0 auto;
 }
 
-.payment{
+.payment {
     padding: 30px;
     background-color: #606063;
+}
+
+.heading-nota {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #606063;
+    padding: 50px;
+}
+
+.heading-nota h1 {
+    font-size: 58px;
+    color: #C5C5FF;
+}
+
+.payment {
+    padding: 30px;
+    background-color: #D9D9D9;
+}
+
+.card-payment{
+    margin: 0 auto;
+    width: 769px;
+}
+
+.button-bayar{
+    border-radius: 20px;
+    background: #21005D;
+    color: #FFF;
+    width: 80%;
 }

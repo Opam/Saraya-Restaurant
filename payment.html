@@ -1,91 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="bootstrap-5/bootstrap.min.css"> -->
-    <!--Boxicons CSS-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="row">
-      <div class="col-1">
-        <nav class="navbar navbar-inverse navbar-fixed-left">
-          <div class="icon-navbar">
-            <a class="navbar-brand" href="home-page.html"><i class="bx bxs-home"></i></a>
-            <a class="navbar-brand" href="checkout.html"><i class="bx bxs-cart-alt"></i></a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="bootstrap-5/bootstrap.min.css"> -->
+  <!--Boxicons CSS-->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-12 body-right">
+      <div class="container">
+        <div class="header">
+          <img src="img/Group 475.png" class="banner" />
+        </div>
+        <div class="card card-payment mb-5">
+          <div class="heading-nota d-flex justify-content-center">
+            <h1>11</h1>
           </div>
-          <div class="icon-logo">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="60"
-              height="99"
-              viewBox="0 0 60 99"
-              fill="none"
-            >
-              <path
-                d="M24.2864 0.62738L29.5891 11.2306L34.8895 0.62738H24.2864ZM49.4056 10.3698L48.697 22.2016L58.5894 15.6703L49.4056 10.3698ZM9.82479 10.5676L0.641005 15.8681L10.5333 22.3993L9.82479 10.5676ZM29.5868 17.7234C29.5868 24.8275 27.3629 32.3149 21.8973 41.5891C21.1013 42.9397 20.4537 44.305 19.9329 45.6746C20.609 45.4645 21.3823 45.3489 22.2584 45.3929C25.9348 45.5766 27.7005 46.587 28.1743 46.8327C28.3826 46.5677 28.5904 46.26 29.2416 45.7017C30.1308 44.9396 31.3919 44.1199 32.9251 44.2052C35.2651 44.3352 36.5251 45.4871 36.9834 45.8539C37.2251 45.6838 37.5892 45.3938 38.4232 44.9955C39.1387 44.6536 40.0014 44.3138 40.9235 44.2188C39.1867 36.6119 35.5168 27.9318 29.5868 17.7234ZM59.4614 43.9918L48.8583 49.2922L59.4614 54.5949V43.9918ZM0.62738 44.1895V54.7927L11.2305 49.4899L0.62738 44.1895ZM32.6799 45.8836C31.8848 45.9056 31.0194 46.4056 30.3408 46.9873C29.6169 47.6078 29.1531 48.2409 29.1531 48.2409L28.7125 48.8586L28.0539 48.4815C28.0539 48.4815 25.9494 47.2625 22.1698 47.0736C20.8917 47.0098 19.9363 47.3395 19.2357 47.7821C18.6147 49.9683 18.3038 52.1584 18.2592 54.3248C19.2313 53.6626 20.5478 53.1492 22.2584 53.2347C25.935 53.4184 27.7006 54.4402 28.1743 54.6859C28.3826 54.4209 28.5904 54.1131 29.2416 53.5549C30.0752 52.8404 31.2338 52.0639 32.639 52.0401C32.7326 52.0386 32.8293 52.0408 32.9251 52.0446C35.265 52.1747 36.5251 53.3287 36.9833 53.6956C37.2255 53.5251 37.5898 53.2466 38.4231 52.8485C39.428 52.3685 40.7186 51.89 42.0635 52.0923C41.954 50.1097 41.6952 48.0504 41.2777 45.9062C40.5981 45.9523 39.8129 46.2041 39.1476 46.5215C38.2453 46.9527 37.5965 47.4368 37.5965 47.4368L37.0582 47.8433L36.5405 47.4052C36.5405 47.4052 34.8573 45.9981 32.8365 45.8859C32.7842 45.883 32.733 45.8822 32.6799 45.8836ZM32.6799 53.7367C31.8848 53.7586 31.0194 54.2587 30.3408 54.8403C29.6169 55.4608 29.1531 56.0826 29.1531 56.0826L28.7125 56.6958L28.0539 56.3236C28.0539 56.3236 25.9494 55.1044 22.1698 54.9155C20.1851 54.8162 18.9734 55.6648 18.2978 56.4121C18.8474 66.3529 24.6354 75.5546 30.3794 81.059C37.8923 72.9671 42.2415 64.4856 42.1226 53.8209C42.0663 53.8077 42.0105 53.7945 41.9521 53.7813C41.1697 53.6183 40.0497 53.9321 39.1474 54.3627C38.2452 54.7938 37.5964 55.278 37.5964 55.278L37.0581 55.6845L36.5403 55.2439C36.5403 55.2439 34.8571 53.8504 32.8364 53.7382C32.7841 53.7353 32.733 53.7353 32.6799 53.7367ZM49.0377 76.3828L49.7485 88.2169L58.93 82.9141L49.0377 76.3828ZM10.8763 76.5806L0.983914 83.1119L10.1655 88.4146L10.8763 76.5806ZM29.9842 87.5539L24.6815 98.1571H35.2847L29.9842 87.5539Z"
-                fill="black"
-              />
-            </svg>
-          </div>
-        </nav>
-      </div>
-      <div class="col-11 body-right">
-        <div class="container">
-          <div class="card nota-bayar">
-            <div class="card mt-5 mb-5" style="width: 18rem">
-                <div class="payment">
-                  <h1>5</h1>
-                </div>
+          <div class="payment">
             <div class="d-flex justify-content-between">
-                <h1>Ticket Number : #1234123</h1>
-                <h1>15 May 2023 | 01:43 PM</h1>
+              <div class="d-flex justify-content-around">
+                <h5>2x</h5>
+                <h5 class="ms-3">Italian Pasta</h5>
+              </div>
+              <h5>Rp 110.000</h5>
             </div>
             <div class="d-flex justify-content-between">
-                <h1>Italian Pasta (2X)</h1>
-                <h1>Rp196.000</h1>
+              <div class="d-flex justify-content-around">
+                <h5>2x</h5>
+                <h5 class="ms-3">Italian Pasta</h5>
+              </div>
+              <h5>Rp 110.000</h5>
             </div>
-            <div class="d-flex justify-content-between mb-5">
-                <h1>Italian Pasta (2X)</h1>
-                <h1>Rp196.000</h1>
-            </div>
-            <hr>
             <div class="d-flex justify-content-between">
-                <h1></h1>
-                <h1>Rp 690.000</h1>
+              <div class="d-flex justify-content-around">
+                <h5>2x</h5>
+                <h5 class="ms-3">Italian Pasta</h5>
+              </div>
+              <h5>Rp 110.000</h5>
+            </div>
+            <p>---------------------------------------------------------------------------</p>
+            <div class="d-flex justify-content-between">
+              <div class="d-flex justify-content-around">
+                <h5>TOTAL</h5>
+              </div>
+              <h5>Rp 110.000</h5>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="d-flex justify-content-around">
+                <h5>TOTAL BAYAR</h5>
+              </div>
+              <h5>Rp 200.000</h5>
+            </div>
+            <p>---------------------------------------------------------------------------</p>
+            <div class="d-flex justify-content-between">
+              <h5>Kembalian</h5>
+              <h5>- Rp 25.000</h5>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+              <button class="btn button-bayar">Bayar</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
