@@ -177,3 +177,28 @@ a {
     align-self: center;
     margin-top: 20px;
 }
+
+.checkout{
+    
+    background-color: #C5C5FF;
+}
+
+.checkout i{
+    font-size: 28px;
+}
+
+.order{
+    display: flex;
+    background-color: #4D70FF;
+    color:#FFF;
+    justify-content: center;
+    width: 100%;
+}
+
+.order:hover{
+    background-color: #4D70FF;
+}
+
+.serah{
+    margin: 35px 100px ;
+}
