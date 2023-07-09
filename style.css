@@ -18,7 +18,6 @@ body {
     height: 100vh;
     /* full height of the browser */
     width: 100%;
-
 }
 
 .welcome-card {
@@ -318,10 +317,10 @@ a {
 }
 
 .kasir .card:hover{
-  background-color: #44FB04;
-  color: #1E1E1E;
-  cursor: pointer;
-  transition: 0.3s all;
+    background-color: #44FB04;
+    color: #1E1E1E;
+    cursor: pointer;
+    transition: 0.3s all;
 }
 
 .body-service{
@@ -363,4 +362,8 @@ a {
 
 .navbar-manager-padding{
     padding-top: 300px;
+}
+
+.togel{
+    width: 10%;
 }
